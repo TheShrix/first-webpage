@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -17,6 +18,7 @@ body {
     align-items: center;
     color: white;
     gap: 150px;
+
 }
 
 .logo {
@@ -56,15 +58,18 @@ body {
 .awesome {
     font-size: 40px;
     font-weight: 900;
+    margin-bottom: 5px;
 }
 
 .sign1 {
-    background-color: blue;
+    background-color: rgb(39, 123, 250);
     color: white;
     padding: 5px;
     width: 85px;
     border-radius: 5px;
     border: #1F2937;
+    font-weight: 900;
+    margin-top: 10px;
 }
 
 
@@ -119,11 +124,63 @@ body {
 
 .box5 {
     background-color: white;
+    padding: 80px;
 }
 
+.button-box {
+    padding: 20px;
+    background-color: rgb(39, 123, 250);
+    width: 600px;
+    height: 50px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 160px;
+}
 
+.text2 {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.action {
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+}
 
+.sign {
+    font-size: 10px;
+    color: white;
+}
+
+.sign2 {
+    background-color: rgb(39, 123, 250);
+    border-color: white;
+    border-radius: 5px;
+    color: white;
+    margin-right: 0;
+    height: 25px;
+    width: 90px;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.box6 {
+    display: flex;
+    flex: auto;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    color: white;
+    padding: 25px;
+}
 
 
 
