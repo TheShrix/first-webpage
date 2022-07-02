@@ -40,6 +40,13 @@ body {
     padding: 50px;
 }
 
+.img1, .img2, .img3, .img4 {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
 .imgplace {
     padding: 70px;
     margin: 25px;
@@ -48,6 +55,7 @@ body {
 
 .awesome {
     font-size: 40px;
+    font-weight: 900;
 }
 
 .sign1 {
@@ -62,12 +70,51 @@ body {
 
 .box3 {
     background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
 }
 
+.random {
+    font-size: 25px;
+    font-weight: 900;
+}
 
+.image {
+    padding: 50px;
+    margin: 10px;
+    border-style: dashed;
+    border-radius: 8px;
+    border-color: rgb(0, 81, 255);
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    padding: 30px;
+}
 
 .box4 {
     background-color: rgb(185, 184, 184);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    align-self: flex-end;
+    margin-right: 160px;
+    margin-top: 10px;
 }
 
 .box5 {
